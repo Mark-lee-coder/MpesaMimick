@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity5"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:text="Enter Amount"
+        android:id="@+id/plain"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:text="Digits(0-9,*,#,+)0-20"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="20px"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etPin"
+        android:inputType="number"
+        android:ems="10"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="OK"
+        android:id="@+id/button"/>
+
+</LinearLayout>

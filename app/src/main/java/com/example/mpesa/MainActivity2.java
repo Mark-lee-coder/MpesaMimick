@@ -21,11 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         listview2 = findViewById(R.id.listView);
         //create an adapter'
-        ArrayAdapter adapter = new ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_list_item_1,
-                mpesamenu
-        );
+        ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mpesamenu);
         //load the listview
         listview2.setAdapter(adapter);
         listview2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
